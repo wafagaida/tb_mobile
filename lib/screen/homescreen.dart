@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:tajwid/materi/nunmati.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -45,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xffAC7E4D),
                   shadowColor: const Color(0xffAC7E4D),
-                  minimumSize: Size(90, 55),
+                  minimumSize: const Size(90, 55),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18),
                   ),
@@ -68,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xffAC7E4D),
                   shadowColor: const Color(0xffAC7E4D),
-                  minimumSize: Size(90, 55),
+                  minimumSize: const Size(90, 55),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18),
                   ),
@@ -91,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xffAC7E4D),
                   shadowColor: const Color(0xffAC7E4D),
-                  minimumSize: Size(90, 55),
+                  minimumSize: const Size(90, 55),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18),
                   ),
@@ -114,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xffAC7E4D),
                   shadowColor: const Color(0xffAC7E4D),
-                  minimumSize: Size(90, 55),
+                  minimumSize: const Size(90, 55),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18),
                   ),
