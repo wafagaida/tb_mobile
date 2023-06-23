@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         backgroundColor: const Color(0xff514438),
         // leading: const CircleAvatar(
-        //   backgroundImage: AssetImage('assets/foto.jpg'),
+        //   backgroundImage: AssetImage('assets/quran.png'),
         // ),
         toolbarHeight: 100,
       ),

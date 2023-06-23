@@ -12,7 +12,7 @@ class _MimMatiState extends State<MimMati> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Hukum Mim Mati dan Tanwin'),
+        title: const Text('Hukum Mim Mati'),
         backgroundColor: const Color(0xff514438),
       ),
       body: const SingleChildScrollView(
