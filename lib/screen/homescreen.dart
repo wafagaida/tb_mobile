@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:tajwid/materi/aliflam.dart';
+import 'package:tajwid/materi/mimmati.dart';
 import 'package:tajwid/materi/nunmati.dart';
+import 'package:tajwid/materi/qalqalah.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -51,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const NunMati()),
+                    MaterialPageRoute(builder: (context) => const AlifLam()),
                   );
                 },
               ),
@@ -97,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const NunMati()),
+                    MaterialPageRoute(builder: (context) => const MimMati()),
                   );
                 },
               ),
@@ -120,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const NunMati()),
+                    MaterialPageRoute(builder: (context) => const Qalqalah()),
                   );
                 },
               ),
