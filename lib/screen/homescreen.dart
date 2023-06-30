@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:tajwid/materi/aliflam.dart';
 import 'package:tajwid/materi/mimmati.dart';
@@ -28,9 +29,11 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: NetworkImage(
+            image: CachedNetworkImageProvider(
                 "https://cdn.kibrispdr.org/data/1074/gambar-background-buku-29.png"),
-            // AssetImage('assets/bg.png'),
+            // image: NetworkImage(
+            //     "https://cdn.kibrispdr.org/data/1074/gambar-background-buku-29.png"),
+            // image: AssetImage("assets/bg.png"),
             fit: BoxFit.cover,
           ),
         ),
